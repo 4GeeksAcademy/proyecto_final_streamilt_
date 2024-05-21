@@ -7,3 +7,4 @@ streamlit-lottie
 streamlit-extras
 h5py
 opencv-python-headless
+utils
