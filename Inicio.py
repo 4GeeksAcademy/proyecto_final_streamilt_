@@ -4,7 +4,7 @@ import requests
 import numpy as np
 from tensorflow.keras.models import load_model
 from streamlit_lottie import st_lottie
-from utils import load_image, load_ben_color
+from utils import load_ben_color
 import time
 from streamlit_extras.switch_page_button import switch_page
 
