@@ -8,8 +8,6 @@ import time
 from streamlit_extras.switch_page_button import switch_page
 from utils import load_image, load_ben_color
 
-
-
 # Cargar el modelo
 modelo = load_model('/workspaces/proyecto_final_streamilt/project/models/densenet121_model.h5')
 
@@ -29,8 +27,6 @@ def diagnosis_page():
     if st.button("Volver al inicio"):
         switch_page("Inicio")
     
-        
-    
     st.title("Diagnóstico Inteligente")
 
     # Sección de datos del usuario
@@ -49,8 +45,6 @@ def diagnosis_page():
     st.write('<ul><li><b>No se detecta retinopatía diabética</b>: No se han podido identificar signos de rinopatía</li>', unsafe_allow_html=True)
     st.write('<ul><li><b>Se sugiere evaluación profesional</b>Detección moderada de signos de Rinopatía, se sugiere profundizar el diagnóstico con un profesional</li>', unsafe_allow_html=True)
     st.write('<ul><li><b>Retinopatía diabética detectada</b>: Evidente detección de signos de Rinopatía: se sugiere realizar consulta profesional cuanto antes.</li>', unsafe_allow_html=True)
-   
-    
     
     # Carga de imagen
     image_file = st.file_uploader("Carga una imagen", type=["jpg", "jpeg", "png"])
@@ -96,8 +90,6 @@ def diagnosis_page():
         st.image(img, caption="Imagen cargada", use_column_width=True)
 
     st.write("---")
-
-    
 
 # Ejecutar la página de diagnóstico
 if __name__ == "__main__":

@@ -36,14 +36,10 @@ def main_page():
     st.write("Al igual que en el resto de complicaciones crónicas de la diabetes mellitus, **la presencia de niveles elevados de glucosa en sangre durante muchos años, produce alteraciones en los vasos sanguíneos de la retina que originan daño en este importante tejido ocular.**")
     st.write("Dichas alteraciones vasculares dificultan el aporte de oxígeno a la retina, en la cual se producen microaneurismas, hemorragias, así como fuga de lípidos y proteínas desde el interior de los capilares dañados. Esto ocurre fundamentalmente cuando la diabetes no se controla correctamente y recibe el nombre de retinopatía diabética.")
     st.write("Estos cambios son progresivos y la falta de oxigenación de la retina estimula el crecimiento de más vasos que intentan suplir el déficit de aporte sanguíneo. La aparición de estos nuevos vasos (fase denominada retinopatía diabética proliferante) puede producir daños irreversibles en la retina")
-    
-
 
 # Sistema de navegación
 def main():
-       main_page()
-  
+    main_page()
 
 if __name__ == "__main__":
     main()
-
