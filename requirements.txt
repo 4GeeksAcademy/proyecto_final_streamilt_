@@ -2,7 +2,7 @@ streamlit
 pillow
 requests
 numpy
-tensorflow==2.7.0
+tensorflow
 streamlit-lottie
 streamlit-extras
 h5py
